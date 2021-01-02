@@ -13,7 +13,7 @@
     "sources": "https://github.com/kregerl/Dropper-Predictor"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/dropperpredictor/icon.png",
 
   "environment": "*",
