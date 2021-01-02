@@ -4,12 +4,12 @@
   "version": "1.0.0",
 
   "name": "Dropper Predictor",
-  "description": "This mod lets you predict the next slot a dropper / dispenser will drop.",
+  "description": "This mod lets you predict the next slot a dropper/dispenser will drop.",
   "authors": [
     "AreUThreateningMe"
   ],
   "contact": {
-    "homepage": "",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/dropper-predictor",
     "sources": "https://github.com/kregerl/Dropper-Predictor"
   },
 

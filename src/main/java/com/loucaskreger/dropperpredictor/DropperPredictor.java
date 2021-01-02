@@ -101,7 +101,11 @@ public class DropperPredictor implements ModInitializer {
 			int numPredictions = context.getArgument("predictions", Integer.class);
 			UUID uuid = context.getSource().getPlayer().getUuid();
 			List<Integer> nextPredictions = nextDrops(numPredictions);
-			for (int i = 0; i < nextPredictions.size(); i++) {
+			int size = nextPredictions.size();
+
+			String initialMessage = String.format(size == 1 ? "The next drop is:" : "The next %d drops are:", size);
+			broadcast(context.getSource(), uuid, initialMessage);
+			for (int i = 0; i < size; i++) {
 				String message = String.format("%d: %d", i + 1, nextPredictions.get(i));
 				broadcast(context.getSource(), uuid, message);
 			}
