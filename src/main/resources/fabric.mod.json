@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "dropperpredictor",
+  "version": "1.0.0",
+
+  "name": "Dropper Predictor",
+  "description": "This mod lets you predict the next slot a dropper / dispenser will drop.",
+  "authors": [
+    "AreUThreateningMe"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/kregerl/Dropper-Predictor"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/dropperpredictor/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.loucaskreger.dropperpredictor.DropperPredictor"
+    ]
+  },
+  "mixins": [
+    "dropperpredictor.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
