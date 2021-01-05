@@ -1,0 +1,10 @@
+{
+	"required": true,
+	"package": "com.loucaskreger.dropperpredictor.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"refmap": "dropperpredictor.refmap.json",
+	"mixins": [
+		"DropperMixin"
+	],
+	"minVersion": "0.8"
+}

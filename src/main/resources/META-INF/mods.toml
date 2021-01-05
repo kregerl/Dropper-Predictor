@@ -1,0 +1,30 @@
+	modLoader="javafml"
+	loaderVersion="[32,)"
+	license="MIT"
+	
+[[mods]]
+	modId="dropperpredictor"
+	version="1.0"
+	displayName="Dropper Predictor"
+	displayURL="https://www.curseforge.com/minecraft/mc-mods/dropper-predictor"
+	issueTrackerURL="https://github.com/kregerl/Dropper-Predictor"
+	logoFile="dropperPredictor.png"
+	credits=""
+	authors="AreUThreateningMe"
+	description='''
+	Predict the outcome of droppers or dispensers before they are triggered.
+'''
+
+[[dependencies.dropperpredictor]]
+    modId="forge"
+    mandatory=true
+    versionRange="[32,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dropperpredictor]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.1, 1.16.4]"
+    ordering="AFTER"
+    side="BOTH"
